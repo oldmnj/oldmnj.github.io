@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优质网站资源 - Up主资源导航</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .upmaster {
+            font-family: 'Ma Shan Zheng', cursive;
+            font-size: 1.8rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .back-btn {
+            padding: 8px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .website-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .website-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .website-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-3px);
+        }
+        
+        .website-card h3 {
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 10px;
+        }
+        
+        .website-card a {
+            display: inline-block;
+            padding: 8px 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 10px;
+            margin-right: 10px;
+            transition: all 0.2s ease;
+        }
+        
+        .website-card a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .qgroup {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .website-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="upmaster">来自于up主：trm</div>
+            <a href="index.html" class="back-btn">返回首页</a>
+        </div>
+        
+        <h1>优质网站资源</h1>
+        
+        <div class="website-grid">
+            <div class="website-card">
+                <h3>GitHub</h3>
+                <p>全球最大的代码托管平台</p>
+                <a href="https://github.com/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>樱花FRP内网穿透</h3>
+                <p>免费的内网穿透服务</p>
+                <a href="https://www.natfrp.com/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>开源阅读"源"社区</h3>
+                <p>优质小说阅读资源</p>
+                <a href="https://www.yckceo.sbs/yuedu/shuyuans/index.html" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>找梯子</h3>
+                <p>网络加速服务节点信息</p>
+                <a href="https://zhaotizi.site/nodes/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>C++自学网站</h3>
+                <p>W3Cschool的C++教程</p>
+                <a href="https://www.w3cschool.cn/cpp/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>菜鸟教程</h3>
+                <p>编程入门学习网站</p>
+                <a href="https://www.runoob.com/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>MC投影网站</h3>
+                <p>来源Up主"火弦月"</p>
+                <a href="https://redenmc.com/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>电子课本网</h3>
+                <p>人教版电子课本资源</p>
+                <a href="http://m.dzkbw.com/books/rjb/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>MCWiki中文网</h3>
+                <p>Minecraft中文维基百科</p>
+                <a href="https://zh.minecraft.wiki/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>MCWikiB站镜像</h3>
+                <p>Minecraft维基百科B站镜像站</p>
+                <a href="https://wiki.biligame.com/mc/" target="_blank">访问网站</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>方纹资源包</h3>
+                <p>Minecraft方纹材质包</p>
+                <a href="https://www.planetminecraft.com/texture-pack/xekrsquarepattern/" target="_blank">PlanetMC</a>
+                <a href="https://modrinth.com/resourcepack/xekrsquarepattern/versions" target="_blank">Modrinth</a>
+                <a href="https://www.curseforge.com/minecraft/texture-packs/xekr-square-pattern/files" target="_blank">CurseForge</a>
+            </div>
+            
+            <div class="website-card">
+                <h3>红显资源包</h3>
+                <p>Minecraft红石显示材质包</p>
+                <a href="https://www.planetminecraft.com/texture-pack/redstone-display-5793327/" target="_blank">PlanetMC</a>
+                <a href="https://modrinth.com/resourcepack/xk-redstone-display/versions" target="_blank">Modrinth</a>
+                <a href="https://www.curseforge.com/minecraft/texture-packs/xekr-redstone-display/files" target="_blank">CurseForge</a>
+            </div>
+        </div>
+        
+        <div class="qgroup">
+            资源🐧群: 465076894
+        </div>
+    </div>
+</body>
+</html>
